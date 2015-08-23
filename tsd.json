@@ -43,6 +43,9 @@
     },
     "http-status/http-status.d.ts": {
       "commit": "b05e766a045db7d43d53da3ad97ead35774540e7"
+    },
+    "react/react.d.ts": {
+      "commit": "b05e766a045db7d43d53da3ad97ead35774540e7"
     }
   }
 }

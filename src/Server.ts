@@ -14,6 +14,9 @@ class Server {
 
 	start() {
 		console.log('Start Server');
+		this.app.set('views', __dirname + '/../views');
+		this.app.set('view engine', 'handlebars');
+		this.app.engine('handlebars', require('express-handlebars')({ defaultLayout: 'main' }));
 		this.app.listen(process.env.PORT || 80);
 	}
 }

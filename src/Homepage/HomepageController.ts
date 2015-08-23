@@ -16,7 +16,9 @@ class HomepageController {
 	}
 
 	private indexAction(req: express.Request, res: express.Response) {
-		res.send({});
+		res.render('Homepage/index', {
+			title: 'Marcela a Honza se berou'
+		});
 	}
 
 }
