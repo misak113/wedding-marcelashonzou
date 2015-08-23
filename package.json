@@ -1,0 +1,19 @@
+{
+  "name": "wedding-marcelashonzou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misak113/wedding-marcelashonzou.git"
+  },
+  "author": "Michael Zabka <michael@farfalia.com> (http://zabka.avantcore.cz/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misak113/wedding-marcelashonzou/issues"
+  },
+  "homepage": "https://github.com/misak113/wedding-marcelashonzou#readme"
+}
