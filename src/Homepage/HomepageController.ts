@@ -3,7 +3,7 @@ import express = require('express');
 
 export = HomepageController;
 class HomepageController {
-	
+
 	static $service = 'Homepage.HomepageController';
 	static $inject = [
 		'express.Express',
