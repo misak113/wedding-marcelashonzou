@@ -1,1 +1,9 @@
+.env.json
+.idea/
+build/
+Thumbs.db
+ehthumbs.db
 node_modules/
+bower_components/
+typings/
+*.sublime-workspace

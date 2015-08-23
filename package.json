@@ -2,18 +2,40 @@
   "name": "wedding-marcelashonzou",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "author": "Michael Zabka <michael@farfalia.com> (http://zabka.avantcore.cz/)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "./node_modules/.bin/grunt prepublish",
+    "test": "./node_modules/.bin/grunt test",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/misak113/wedding-marcelashonzou.git"
   },
-  "author": "Michael Zabka <michael@farfalia.com> (http://zabka.avantcore.cz/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/misak113/wedding-marcelashonzou/issues"
   },
-  "homepage": "https://github.com/misak113/wedding-marcelashonzou#readme"
+  "homepage": "https://github.com/misak113/wedding-marcelashonzou#readme",
+  "dependencies": {
+    "asimplia-util": "^0.3.34",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-develop": "~0.4.0",
+    "grunt-jasmine-node": "~0.2.1",
+    "grunt-shell": "~1.1.1",
+    "grunt-tsd": "~0.2.0-beta.1",
+    "grunt-tslint": "=2.2.0-beta",
+    "grunt-typescript": "^0.6.1",
+    "grunt-wait": "~0.1.0",
+    "tsd": "~0.6.0-beta.5",
+    "tslint": "=2.2.0-beta",
+    "typescript": "~1.4.1"
+  }
 }
