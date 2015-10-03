@@ -21,7 +21,9 @@
   "dependencies": {
     "asimplia-util": "^0.3.34",
     "express": "^4.13.3",
-    "express-handlebars": "^2.0.1"
+    "express-handlebars": "^2.0.1",
+    "express-less-middleware": "^1.4.3",
+    "serve-static": "^1.10.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

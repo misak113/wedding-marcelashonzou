@@ -46,6 +46,9 @@
     },
     "react/react.d.ts": {
       "commit": "b05e766a045db7d43d53da3ad97ead35774540e7"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "b05e766a045db7d43d53da3ad97ead35774540e7"
     }
   }
 }
