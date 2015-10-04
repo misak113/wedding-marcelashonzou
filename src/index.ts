@@ -1,5 +1,5 @@
 
-import Util = require('asimplia-util');
+import * as Util from 'asimplia-util/build/src/index';
 import services = require('./config/services');
 
 var di: Util.DI.DependencyInjection;

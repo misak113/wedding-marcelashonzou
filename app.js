@@ -1,5 +1,5 @@
 
-var App = require("./build/index");
+var App = require("./dist/js/index");
 var Util = require("asimplia-util");
 
 var di = App.getDependencyInjection();

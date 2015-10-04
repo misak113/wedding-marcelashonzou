@@ -21,6 +21,7 @@ class Server {
 		this.app.use(require( 'express-less-middleware' )(__dirname + '/../public'));
 		this.app.use(serveStatic(__dirname + '/../public'));
 		this.app.get('/css/index');
-		this.app.listen(process.env.PORT || 80);
+		var port = process.env.PORT || 80;
+		this.app.listen(port, () => console.info('Listen on port ' + port));
 	}
 }

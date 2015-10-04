@@ -1,9 +1,11 @@
 .env.json
+node_modules/
+dist/*
+typings/*
+!.gitkeep
+
 .idea/
-build/
+*.sublime-workspace
+
 Thumbs.db
 ehthumbs.db
-node_modules/
-bower_components/
-typings/
-*.sublime-workspace

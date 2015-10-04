@@ -1,7 +1,7 @@
 
 import express = require('express');
 import http = require('http');
-import Util = require('asimplia-util');
+import * as Util from 'asimplia-util/build/src/index';
 
 var services: { [name: string]: any } = {
 	'http.Server': {
@@ -49,7 +49,7 @@ var services: { [name: string]: any } = {
 	},
 	'Util:Env.EnvConfigOverrider': {
 		$class: Util.Env.EnvConfigOverrider,
-		$args: [__dirname + '/../..']
+		$args: [__dirname + '/../../..']
 	},
 	'Util:Collection.Progress.ProgressListLogger': Util.Collection.Progress.ProgressListLogger,
 	'Util:Console.LogPrefixer': Util.Console.LogPrefixer,
