@@ -2,10 +2,10 @@
 gulp = require 'gulp'
 ts = require 'gulp-typescript'
 merge = require 'merge2'
-paths = require './paths'
-require './js-ts-tsd'
+paths = require '../config/paths'
+require './build-js-ts-tsd'
 
-gulp.task 'js-ts-build', ['js-ts-tsd'], ->
+gulp.task 'build-js-ts', ['build-js-ts-tsd'], ->
   tsProject = ts.createProject paths.ts.config
   tsResult = gulp.src([
     paths.tsd.src

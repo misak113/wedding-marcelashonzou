@@ -1,9 +1,9 @@
 
 gulp = require 'gulp'
 tsd = require 'gulp-tsd'
-paths = require './paths'
+paths = require '../config/paths'
 
-gulp.task 'js-ts-tsd-reinstall', (callback) ->
+gulp.task 'build-js-ts-tsd', (callback) ->
   tsd({
     command: 'reinstall',
     config: paths.tsd.config

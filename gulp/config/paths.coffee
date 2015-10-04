@@ -1,5 +1,5 @@
 
-basePath = __dirname + '/..'
+basePath = __dirname + '/../..'
 npmConfig = require basePath + '/package.json'
 
 paths = {

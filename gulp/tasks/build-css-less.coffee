@@ -1,9 +1,9 @@
 
 gulp = require 'gulp'
 less = require 'gulp-less'
-paths = require './paths'
+paths = require '../config/paths'
 
-gulp.task 'css-less-build', ->
+gulp.task 'build-css-less', ->
   return gulp.src([paths.less.src])
     .pipe less()
     .pipe gulp.dest(paths.dist + '/css')

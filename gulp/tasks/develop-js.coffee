@@ -1,10 +1,10 @@
 
 gulp = require 'gulp'
-paths = require './paths'
+paths = require '../config/paths'
 server = require 'gulp-develop-server'
-require './js'
+require './build-js'
 
-gulp.task 'js-develop', ['js'], ->
+gulp.task 'develop-js', ['build-js'], ->
   server.listen {
     path: paths.back.mainFile
   }
