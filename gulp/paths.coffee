@@ -10,5 +10,7 @@ paths = {
   tsd:
   	config: basePath + '/tsd.json'
   	src: basePath + '/typings/tsd.d.ts'
+  less:
+    src: basePath + '/src/index.less'
 }
 module.exports = paths

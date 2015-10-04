@@ -15,12 +15,10 @@ class Server {
 
 	start() {
 		console.log('Start Server');
-		this.app.set('views', __dirname + '/../views');
+		this.app.set('views', __dirname + '/../../views');
 		this.app.set('view engine', 'handlebars');
 		this.app.engine('handlebars', require('express-handlebars')({ defaultLayout: 'main' }));
-		this.app.use(require( 'express-less-middleware' )(__dirname + '/../public'));
-		this.app.use(serveStatic(__dirname + '/../public'));
-		this.app.get('/css/index');
+		this.app.use(serveStatic(__dirname + '/../../dist'));
 		var port = process.env.PORT || 80;
 		this.app.listen(port, () => console.info('Listen on port ' + port));
 	}
