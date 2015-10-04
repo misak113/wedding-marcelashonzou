@@ -1,9 +1,9 @@
 
 gulp = require 'gulp'
-require './js-ts-watch'
+require './js-watch'
 require './css-less-watch'
 
 gulp.task 'watch', [
-  'js-ts-watch'
+  'js-watch'
   'css-less-watch'
 ]

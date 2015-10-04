@@ -2,11 +2,11 @@
 gulp = require 'gulp'
 paths = require './paths'
 server = require 'gulp-develop-server'
-require './js-ts'
+require './js'
 
-gulp.task 'js-ts-develop', ['js-ts'], ->
+gulp.task 'js-develop', ['js'], ->
   server.listen {
-    path: paths.basePath + '/app.js'
+    path: paths.back.mainFile
   }
 
 module.exports.restart = server.restart

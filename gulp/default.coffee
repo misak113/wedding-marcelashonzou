@@ -1,9 +1,9 @@
 
 gulp = require 'gulp'
-require './js-ts'
+require './js'
 require './css-less'
 
 gulp.task 'default', [
-  'js-ts'
+  'js'
   'css-less'
 ]

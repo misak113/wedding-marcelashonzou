@@ -2,12 +2,12 @@
   "name": "wedding-marcelashonzou",
   "version": "1.0.1",
   "description": "",
-  "main": "app.js",
+  "main": "back.js",
   "author": "Michael Zabka <michael@farfalia.com> (http://zabka.avantcore.cz/)",
   "scripts": {
     "prepublish": "./node_modules/.bin/grunt prepublish",
     "test": "./node_modules/.bin/grunt test",
-    "start": "node app.js"
+    "start": "node back.js"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,10 @@
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
     "gulp-develop-server": "^0.4.3",
     "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2",
     "gulp-tsd": "0.0.4",
     "gulp-typescript": "^2.9.2",
     "gulp-watch-less": "^1.0.1",
