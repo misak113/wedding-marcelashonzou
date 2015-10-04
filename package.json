@@ -22,6 +22,7 @@
     "asimplia-util": "^0.3.34",
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
+    "moment": "^2.10.6",
     "react": "^0.13.3",
     "serve-static": "^1.10.0"
   },

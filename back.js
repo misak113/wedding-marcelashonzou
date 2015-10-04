@@ -2,7 +2,7 @@
 var App = require("./dist/js/index");
 var Util = require("asimplia-util");
 
-var di = App.getDependencyInjection();
+var di = App.DI();
 
 var server;
 console.info('Starting Wedding "Marcela s Honzou"');

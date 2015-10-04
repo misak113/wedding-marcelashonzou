@@ -7,18 +7,5 @@
         "declaration": true,
         "jsx": "react",
         "moduleResolution": "node"
-    },
-    "filesGlob": [
-        "./src/**/*.ts",
-        "./src/**/*.tsx",
-        "./typings/tsd.d.ts"
-    ],
-    "files": [
-        "./src/Homepage/HomepageController.ts",
-        "./src/Server.ts",
-        "./src/config/services.ts",
-        "./src/index.ts",
-        "./src/Homepage/WelcomePage.tsx",
-        "./typings/tsd.d.ts"
-    ]
+    }
 }

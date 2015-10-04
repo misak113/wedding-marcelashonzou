@@ -5,7 +5,7 @@ import services = require('./config/services');
 var di: Util.DI.DependencyInjection;
 
 export import Server = require('./Server');
-export function getDependencyInjection() {
+export function DI() {
 	'use strict';
 	if (!di) {
 		di = new Util.DI.DependencyInjection('wedding-marcelashonzou', services);
