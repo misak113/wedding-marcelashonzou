@@ -1,12 +1,12 @@
 
 gulp = require 'gulp'
 require './gulp/js-ts'
-require './gulp/watch-js-ts'
+require './gulp/js-ts-watch'
 
 gulp.task 'default', [
   'js-ts'
 ]
 
 gulp.task 'watch', [
-  'watch-js-ts'
+  'js-ts-watch'
 ]
