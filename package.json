@@ -5,8 +5,8 @@
   "main": "back.js",
   "author": "Michael Zabka <michael@farfalia.com> (http://zabka.avantcore.cz/)",
   "scripts": {
-    "prepublish": "./node_modules/.bin/grunt prepublish",
-    "test": "./node_modules/.bin/grunt test",
+    "prepublish": "./node_modules/.bin/gulp",
+    "test": "./node_modules/.bin/gulp test",
     "start": "node back.js"
   },
   "repository": {
