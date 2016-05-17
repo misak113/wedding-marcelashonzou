@@ -19,6 +19,7 @@ class Server {
 		this.app.set('view engine', 'handlebars');
 		this.app.engine('handlebars', require('express-handlebars')({ defaultLayout: 'main' }));
 		this.app.use(serveStatic(__dirname + '/../../dist'));
+		this.app.use(serveStatic(__dirname + '/../../public'));
 		var port = process.env.PORT || 80;
 		this.app.listen(port, () => console.info('Listen on port ' + port));
 	}
