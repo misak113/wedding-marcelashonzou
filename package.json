@@ -24,9 +24,7 @@
     "express-handlebars": "^2.0.1",
     "moment": "^2.10.6",
     "react": "^0.13.3",
-    "serve-static": "^1.10.0"
-  },
-  "devDependencies": {
+    "serve-static": "^1.10.0",
     "coffee-script": "^1.10.0",
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
