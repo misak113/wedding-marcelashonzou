@@ -19,26 +19,26 @@
   },
   "homepage": "https://github.com/misak113/wedding-marcelashonzou#readme",
   "dependencies": {
-    "asimplia-util": "^0.3.34",
-    "express": "^4.13.3",
-    "express-handlebars": "^2.0.1",
-    "moment": "^2.10.6",
-    "react": "^0.13.3",
-    "serve-static": "^1.10.0"
+    "asimplia-util": "=0.3.34",
+    "express": "=4.13.3",
+    "express-handlebars": "=2.0.1",
+    "moment": "=2.10.6",
+    "react": "=0.13.3",
+    "serve-static": "=1.10.0"
   },
   "devDependencies": {
-    "coffee-script": "^1.10.0",
-    "gulp": "^3.9.0",
-    "gulp-browserify": "^0.5.1",
-    "gulp-develop-server": "^0.4.3",
-    "gulp-less": "^3.0.3",
-    "gulp-rename": "^1.2.2",
-    "gulp-tsd": "0.0.4",
-    "gulp-typescript": "^2.9.2",
-    "gulp-watch-less": "^1.0.1",
-    "merge2": "^0.3.6",
-    "tsd": "^0.6.5",
+    "coffee-script": "=1.10.0",
+    "gulp": "=3.9.0",
+    "gulp-browserify": "=0.5.1",
+    "gulp-develop-server": "=0.4.3",
+    "gulp-less": "=3.0.3",
+    "gulp-rename": "=1.2.2",
+    "gulp-tsd": "=0.0.4",
+    "gulp-typescript": "=2.9.2",
+    "gulp-watch-less": "=1.0.1",
+    "merge2": "=0.3.6",
+    "tsd": "=0.6.5",
     "tslint": "=2.2.0-beta",
-    "typescript": "^1.7.0-dev.20151004"
+    "typescript": "=1.7.0-dev.20151004"
   }
 }
