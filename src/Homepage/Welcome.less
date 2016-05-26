@@ -1,7 +1,7 @@
 
 .welcome {
 	background-image: url("../images/marcelashonzou_hp.jpg");
-	background-position: center;
+	background-position: center top;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 100vh;
@@ -72,7 +72,30 @@
 }
 
 @media (max-width: 1024px) {
-    .fb-comments {
-        display: none !important;
+    .welcome {
+        .rest-time {
+            position: absolute;
+            bottom: 220px;
+            color: black;
+            text-shadow: 4px 4px 20px #FFFFFF;
+        }
+        .wedding-date {
+            left: auto;
+            right: 10px;
+            text-align: right;
+            font-size: 150%;
+        }
+        .fb-comments {
+            position: relative;
+            top: 100%;
+            max-height: none;
+        }
+        .time {
+            display: none;
+        }
+        .info {
+            background-color: #660066;
+            color: white;
+        }
     }
 }
