@@ -69,6 +69,7 @@ export default class WelcomePage extends Component<{}, {
 				<div className="time">
 					{moment(this.state.now).format('YYYY-MM-DD hh:mm:ss')}
 				</div>
+				<div className="fb-comments" data-href="http://www.marcelashonzou.cz/" data-numposts="5"></div>
 			</div>
 		);
 	}

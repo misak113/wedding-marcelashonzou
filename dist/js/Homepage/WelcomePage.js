@@ -34,7 +34,7 @@ var WelcomePage = (function (_super) {
             ? React.createElement("span", null, this.state.rest.minutes, "   ", this.format(this.state.rest.minutes, 'minuta', 'minuty', 'minut'), ",   ")
             : null, this.state.rest.seconds
             ? React.createElement("span", null, this.state.rest.seconds, "   ", this.format(this.state.rest.seconds, 'vteřina', 'vteřiny', 'vteřin'), "  ")
-            : null) : React.createElement("div", {"className": "rest-time bigger"}, "Už jsou svoji :)"), React.createElement("div", {"className": "wedding-date"}, "6. 6. 2016", React.createElement("br", null), "Čertousy"), React.createElement("div", {"className": "time"}, moment(this.state.now).format('YYYY-MM-DD hh:mm:ss'))));
+            : null) : React.createElement("div", {"className": "rest-time bigger"}, "Už jsou svoji :)"), React.createElement("div", {"className": "wedding-date"}, "6. 6. 2016", React.createElement("br", null), "Čertousy"), React.createElement("div", {"className": "time"}, moment(this.state.now).format('YYYY-MM-DD hh:mm:ss')), React.createElement("div", {"className": "fb-comments", "data-href": "http://www.marcelashonzou.cz/", "data-numposts": "5"})));
     };
     WelcomePage.prototype.notYet = function () {
         return moment(this.state.now).isBefore(this.getTargetMoment());

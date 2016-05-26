@@ -56,8 +56,22 @@ body {
 .welcome .rest-time.bigger {
   font-size: 160%;
 }
+.welcome .fb-comments {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-height: 50%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 .welcome .time {
   position: absolute;
   bottom: 20px;
   right: 20px;
+}
+@media (max-width: 1024px) {
+  .fb-comments {
+    display: none !important;
+  }
 }
