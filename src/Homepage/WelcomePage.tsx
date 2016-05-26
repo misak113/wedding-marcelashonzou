@@ -36,16 +36,10 @@ export default class WelcomePage extends Component<{}, {
 	render() {
 		return (
 			<div className="welcome">
-				<div className="info">
-					Jestliže si někdo se svatebním darem hlavu láme,<br/>
-					tak vězte, že už doma skoro všechno máme.<br/>
-					A proto Vám malý tip můžeme dát,<br/>
-					jelikož se budeme brát,<br/>
-					potěší nás příspěvek v jakékoli výši,<br/>
-					který nám rozpočet na domácnost zvýší.<br/>
-					Děkujeme
+				<div className="wedding-date">
+					6. 6. 2016<br/>
+					Čertousy
 				</div>
-
 				{this.notYet() ? <div className="rest-time">
 					Zbývá&nbsp;
 					{this.state.rest.days
@@ -62,12 +56,17 @@ export default class WelcomePage extends Component<{}, {
 						? <span>{ this.state.rest.seconds } &nbsp; {this.format(this.state.rest.seconds, 'vteřina', 'vteřiny', 'vteřin') }&nbsp; </span>
 						: null}
 				</div> : <div className="rest-time bigger">Už jsou svoji :)</div>}
-				<div className="wedding-date">
-					6. 6. 2016<br/>
-					Čertousy
-				</div>
 				<div className="time">
 					{moment(this.state.now).format('YYYY-MM-DD hh:mm:ss')}
+				</div>
+				<div className="info">
+					Jestliže si někdo se svatebním darem hlavu láme, <br/>
+					tak vězte, že už doma skoro všechno máme.<br/>
+					A proto Vám malý tip můžeme dát, <br/>
+					jelikož se budeme brát, <br/>
+					potěší nás příspěvek v jakékoli výši, <br/>
+					který nám rozpočet na domácnost zvýší.<br/>
+					Děkujeme
 				</div>
 				<div className="fb-comments" data-href="http://www.marcelashonzou.cz/" data-numposts="5"></div>
 			</div>
