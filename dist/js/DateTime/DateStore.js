@@ -14,7 +14,9 @@ var DateStore = (function (_super) {
         }, 1000);
     }
     DateStore.prototype.onNow = function (callback) {
-        return this.on('now', callback);
+        var listener = this.on('now', callback);
+        callback(new Date());
+        return listener;
     };
     DateStore.$service = 'DateTime.DateStore';
     return DateStore;

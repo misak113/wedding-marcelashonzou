@@ -12,6 +12,8 @@ export default class DateStore extends EventEmitter {
 	}
 	
 	onNow(callback: (now: Date) => void) {
-		return this.on('now', callback);
+		const listener = this.on('now', callback);
+		callback(new Date());
+		return listener;
 	}
 }

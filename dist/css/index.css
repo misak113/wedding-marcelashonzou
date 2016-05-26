@@ -36,6 +36,26 @@ body {
   color: white;
   text-shadow: 2px 2px 10px #660066;
 }
+.welcome .rest-time {
+  position: absolute;
+  bottom: 170px;
+  left: 50%;
+  margin-left: -300px;
+  width: 600px;
+  text-align: center;
+  font-family: Verdana, Garamond, Times, serif;
+  font-size: 90%;
+  line-height: 350%;
+  font-style: italic;
+  color: wheat;
+  text-shadow: 4px 4px 10px #660066;
+}
+.welcome .rest-time .important {
+  font-size: 140%;
+}
+.welcome .rest-time.bigger {
+  font-size: 160%;
+}
 .welcome .time {
   position: absolute;
   bottom: 20px;
